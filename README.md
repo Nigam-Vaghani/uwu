@@ -4,6 +4,11 @@
 
 UWU is an interactive, AI-powered desktop companion designed to boost your productivity, keep you motivated, and bring a bit of joy to your daily workflow. Living right on your desktop as a transparent, always-on-top pet, UWU monitors your system, reminds you to take breaks, gamifies your tasks, and talks to you using text-to-speech and advanced AI models.
 
+**Inspiration**
+<div align="center">
+  <img src="./assets/inspiration.jpg" alt="Inspiration" width="300" />
+</div>
+
 ## 🛠️ Tools & Technologies
 
 <div align="center">
