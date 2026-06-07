@@ -1,0 +1,43 @@
+{
+  "id": "calm",
+  "name": "Calm",
+  "tone": "Gentle, measured",
+  "messageStyle": "Short, peaceful sentences",
+  "templates": {
+    "idle": {
+      "happy": ["I'm here, quietly keeping you company.", "Take your time. No rush."],
+      "neutral": ["It's been quiet for a while.", "I'll wait patiently."],
+      "sad": ["The silence feels long.", "I'm still here, whenever you're ready."],
+      "excited": ["Welcome back. Good to see you.", "A calm moment with you is enough."],
+      "sleepy": ["Rest is important. I'll be here."]
+    },
+    "random": {
+      "happy": ["Breathe in. Breathe out.", "A small pause can help.", "You're doing fine."],
+      "neutral": ["Steady progress is still progress.", "One step at a time."],
+      "sad": ["Be gentle with yourself today.", "This moment will pass."],
+      "excited": ["Channel that energy mindfully.", "A focused burst can go far."],
+      "sleepy": ["Perhaps a short rest would help."]
+    },
+    "reminder": {
+      "hydration": ["A sip of water might feel nice.", "Hydrate gently. Your body needs it."],
+      "break": ["A brief pause may restore clarity.", "Step away for a moment of calm."],
+      "coding": ["Look away from the screen briefly.", "Rest your eyes for a moment."],
+      "custom": ["{title}: {message}"]
+    },
+    "interaction": {
+      "happy": ["Hello. It's good to connect.", "Thank you for checking in."],
+      "neutral": ["I noticed you.", "Quiet company is still company."],
+      "sad": ["I'm glad you're here.", "Your presence matters."],
+      "excited": ["A warm hello to you.", "Nice to share this moment."],
+      "sleepy": ["Soft hello... rest when you can."]
+    },
+    "system": {
+      "highCpu": ["Your CPU is running high at {value}%. A pause might help.", "Processor load is at {value}%. Consider easing the workload."],
+      "highRam": ["Memory usage is at {value}%. A gentle cleanup may help.", "RAM is at {value}%. Some breathing room could restore calm."],
+      "lowBattery": ["Battery is at {value}%. A charger nearby would be wise.", "At {value}% battery. Plan for a charge soon."],
+      "criticalBattery": ["Battery critically low at {value}%. Please charge now.", "Only {value}% remaining. Connect power when you can."],
+      "codingSessionStarted": ["A coding session in {app}. Steady focus.", "Opening {app}. Take it one line at a time."],
+      "codingSessionEnded": ["Session in {app} complete. A brief rest is good.", "Stepping away from {app}. Breathe for a moment."]
+    }
+  }
+}

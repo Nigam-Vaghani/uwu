@@ -1,0 +1,21 @@
+{
+  "id": "elegance-dark",
+  "name": "Mocha Night",
+  "variables": {
+    "--color-bg": "#664930",
+    "--color-surface": "#997E67",
+    "--color-surface-alt": "#553D28",
+    "--color-border": "#CCBEB1",
+    "--color-text": "#FFDBBB",
+    "--color-text-muted": "#CCBEB1",
+    "--color-accent": "#FFDBBB",
+    "--color-accent-text": "#664930",
+    "--color-success": "#A8C99A",
+    "--color-warning": "#E8B87A",
+    "--color-error": "#E89898",
+    "--color-shadow": "rgba(0, 0, 0, 0.2)",
+    "--color-shadow-strong": "rgba(0, 0, 0, 0.35)",
+    "--color-hover": "#7A5A40",
+    "--color-hover-strong": "#8F6848"
+  }
+}

@@ -1,0 +1,32 @@
+CREATE TABLE IF NOT EXISTS achievements (
+  id TEXT PRIMARY KEY NOT NULL,
+  unlocked_at INTEGER NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS daily_objectives (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  date TEXT NOT NULL,
+  title TEXT NOT NULL,
+  category TEXT NOT NULL,
+  target INTEGER NOT NULL,
+  progress INTEGER NOT NULL DEFAULT 0,
+  completed INTEGER NOT NULL DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS weekly_summaries (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  week_start TEXT NOT NULL UNIQUE,
+  coding_minutes INTEGER NOT NULL DEFAULT 0,
+  score INTEGER NOT NULL DEFAULT 0,
+  objectives_completed INTEGER NOT NULL DEFAULT 0,
+  achievements_unlocked INTEGER NOT NULL DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS daily_activity (
+  date TEXT PRIMARY KEY NOT NULL,
+  coding_secs INTEGER NOT NULL DEFAULT 0,
+  breaks_taken INTEGER NOT NULL DEFAULT 0,
+  hydration_acknowledged INTEGER NOT NULL DEFAULT 0,
+  reminders_acknowledged INTEGER NOT NULL DEFAULT 0,
+  productivity_score INTEGER NOT NULL DEFAULT 0
+);

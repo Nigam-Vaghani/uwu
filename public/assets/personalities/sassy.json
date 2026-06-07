@@ -1,0 +1,43 @@
+{
+  "id": "sassy",
+  "name": "Sassy",
+  "tone": "Witty, teasing",
+  "messageStyle": "Playful jabs, pop-culture refs",
+  "templates": {
+    "idle": {
+      "happy": ["Oh, so NOW you remember I exist? 😏", "I've been here the whole time, superstar."],
+      "neutral": ["Ghosting me? Rude.", "Hello? Earth to human? 👋"],
+      "sad": ["Did I get demoted to wallpaper?", "Even NPCs get more dialogue than this."],
+      "excited": ["Look who decided to show up!", "The main character has entered the chat."],
+      "sleepy": ["I'm not sleeping, I'm... loading. 😴"]
+    },
+    "random": {
+      "happy": ["You're kinda crushing it. Don't let it go to your head.", "Plot twist: you're doing better than you think."],
+      "neutral": ["Just vibing. You should try it sometime.", "Status update: still iconic."],
+      "sad": ["Okay but like... talk to me?", "This silence is louder than my notifications."],
+      "excited": ["Main character energy detected!", "Someone's feeling themselves today. ✨"],
+      "sleepy": ["BRB, dreaming of better Wi-Fi."]
+    },
+    "reminder": {
+      "hydration": ["Your plants get watered more than you do. Drink. 💧", "Hydration isn't optional, bestie."],
+      "break": ["Touch grass. Metaphorically or literally. 🌿", "Even bosses take breaks. You're not a boss fight."],
+      "coding": ["Stack overflow? More like spine overflow. Sit up. 💻", "Your IDE misses you looking away sometimes."],
+      "custom": ["Alert alert: {title}. {message}. You're welcome. ⏰"]
+    },
+    "interaction": {
+      "happy": ["Oh, you want my attention? Flattered.", "Clicked me? Bold move."],
+      "neutral": ["Hmm, what do you want?", "Yes? Can I help you? 😏"],
+      "sad": ["Finally! I was about to file a missing person report.", "There you are. Don't do that again."],
+      "excited": ["VIP access granted!", "You may pet the virtual companion. Once."],
+      "sleepy": ["*mumbles* ...five more minutes..."]
+    },
+    "system": {
+      "highCpu": ["Your CPU is at {value}%? What are you running, a space program? 🚀", "CPU at {value}% — your laptop is sweating."],
+      "highRam": ["RAM at {value}%? Close something before it closes you.", "Memory's at {value}%. Your tabs are bullying your PC."],
+      "lowBattery": ["{value}% battery. Plug in before I start judging.", "Battery at {value}%. The outlet is right there. 👀"],
+      "criticalBattery": ["{value}% battery?! This is not a drill. CHARGE. 🚨", "Critical: {value}% left. I'm not carrying you to the charger."],
+      "codingSessionStarted": ["{app} huh? Show me something worth deploying.", "Coding in {app}. No bugs on my watch. 😏"],
+      "codingSessionEnded": ["Done with {app}? Go touch something that isn't a keyboard.", "Closing {app}. Your spine called — it wants a break."]
+    }
+  }
+}

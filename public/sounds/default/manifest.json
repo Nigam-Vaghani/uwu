@@ -1,0 +1,11 @@
+{
+  "id": "default",
+  "name": "Default",
+  "author": "UWU Team",
+  "version": "1.0.0",
+  "sounds": {
+    "notification": "notification.wav",
+    "reaction": "reaction.wav",
+    "levelUp": "level-up.wav"
+  }
+}

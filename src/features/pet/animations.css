@@ -1,0 +1,91 @@
+.pet-sprite-frame {
+  overflow: visible;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.pet-sprite {
+  position: relative;
+  z-index: 1;
+  image-rendering: pixelated;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25));
+}
+
+.pet-sprite--idle {
+  background-position: 0 0;
+  animation: pet-bob 1200ms ease-in-out infinite;
+}
+
+.pet-sprite--walk {
+  animation:
+    pet-frame-cycle var(--anim-duration, 600ms) steps(var(--frame-count, 6), end) infinite,
+    pet-bob 400ms ease-in-out infinite;
+}
+
+.pet-sprite--sleep {
+  animation:
+    pet-frame-cycle var(--anim-duration, 1200ms) steps(var(--frame-count, 2), end) infinite,
+    pet-nap 2000ms ease-in-out infinite;
+}
+
+.pet-sprite--talk {
+  background-position: 0 0;
+  animation: pet-bob 1400ms ease-in-out infinite;
+}
+
+.pet-sprite--celebrate {
+  animation:
+    pet-frame-cycle var(--anim-duration, 600ms) steps(var(--frame-count, 6), end) infinite,
+    pet-celebrate 500ms ease-in-out infinite;
+}
+
+@keyframes pet-frame-cycle {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: calc(-1 * (var(--frame-count, 4) - 1) * var(--frame-width, 64px)) 0;
+  }
+}
+
+@keyframes pet-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+@keyframes pet-nap {
+  0%,
+  100% {
+    transform: translateY(2px) rotate(-1deg);
+  }
+
+  50% {
+    transform: translateY(0) rotate(1deg);
+  }
+}
+
+@keyframes pet-celebrate {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+
+  25% {
+    transform: translateY(-8px) scale(1.05) rotate(-4deg);
+  }
+
+  75% {
+    transform: translateY(-8px) scale(1.05) rotate(4deg);
+  }
+}

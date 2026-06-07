@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS config (
+  key TEXT PRIMARY KEY NOT NULL,
+  value TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS reminders (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  title TEXT NOT NULL,
+  message TEXT NOT NULL,
+  cron_expr TEXT NOT NULL,
+  enabled INTEGER NOT NULL DEFAULT 1,
+  category TEXT NOT NULL,
+  last_fired INTEGER
+);
+
+CREATE TABLE IF NOT EXISTS pet_state (
+  id INTEGER PRIMARY KEY CHECK (id = 1),
+  mood TEXT NOT NULL DEFAULT 'happy',
+  last_interaction INTEGER NOT NULL,
+  excitement_until INTEGER
+);

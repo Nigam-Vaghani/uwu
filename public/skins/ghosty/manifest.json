@@ -1,0 +1,31 @@
+{
+  "id": "ghosty",
+  "name": "Ghosty",
+  "author": "UWU Team",
+  "version": "1.0.0",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frameCount": 4,
+      "durationMs": 800
+    },
+    "walk": {
+      "file": "walk.png",
+      "frameCount": 6,
+      "durationMs": 600
+    },
+    "sleep": {
+      "file": "sleep.png",
+      "frameCount": 2,
+      "durationMs": 1200
+    },
+    "talk": {
+      "file": "talk.png",
+      "frameCount": 4,
+      "durationMs": 680
+    }
+  },
+  "preview": "preview.png"
+}

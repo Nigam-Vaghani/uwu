@@ -1,0 +1,43 @@
+{
+  "id": "motivational",
+  "name": "Motivational",
+  "tone": "Coach-like, direct",
+  "messageStyle": "Action-oriented, goal-focused",
+  "templates": {
+    "idle": {
+      "happy": ["Stay focused. You're on track.", "Good momentum — keep going."],
+      "neutral": ["Check in with your goals.", "A quick reset can help you refocus."],
+      "sad": ["Don't quit now. Progress isn't always visible.", "Show up for yourself — one small step."],
+      "excited": ["Channel that energy into your next task!", "You're fired up — use it!"],
+      "sleepy": ["Rest is part of the performance plan."]
+    },
+    "random": {
+      "happy": ["Discipline beats motivation. Keep showing up.", "Small wins compound. Stack them."],
+      "neutral": ["What's the one thing you can finish next?", "Progress over perfection."],
+      "sad": ["Setbacks are data, not defeat.", "Reset. Refocus. Execute."],
+      "excited": ["Ride this wave — tackle something hard!", "Energy is a resource. Spend it wisely."],
+      "sleepy": ["Recovery is training too. Rest up."]
+    },
+    "reminder": {
+      "hydration": ["Hydrate. Performance depends on basics.", "Water break — non-negotiable."],
+      "break": ["Stand up. Move. Reset your focus.", "Break time. Come back sharper."],
+      "coding": ["Look away. Blink. Refocus.", "Protect your focus — rest your eyes."],
+      "custom": ["Action item: {title}. {message}"]
+    },
+    "interaction": {
+      "happy": ["Good — stay engaged.", "Locked in. I like it."],
+      "neutral": ["Check in acknowledged. Back to work?", "Present and accounted for."],
+      "sad": ["You're back. That's what matters.", "One interaction at a time. Keep going."],
+      "excited": ["High energy! Direct it well.", "Let's turn this into results."],
+      "sleepy": ["Rest if needed. Tomorrow is another rep."]
+    },
+    "system": {
+      "highCpu": ["CPU at {value}% — close distractions and protect your focus.", "Processor load is {value}%. Trim the fat, keep the gains."],
+      "highRam": ["RAM at {value}% — free up memory to stay sharp.", "Memory at {value}%. Clear clutter, execute better."],
+      "lowBattery": ["Battery at {value}%. Charge up — you can't win on empty.", "{value}% left. Power up before you power down."],
+      "criticalBattery": ["Critical: {value}% battery. Plug in now — no excuses.", "{value}% battery. Stop what you're doing and charge."],
+      "codingSessionStarted": ["{app} open. Set a goal and ship it.", "Coding session in {app}. Focus block starts now."],
+      "codingSessionEnded": ["Session in {app} done. Review, rest, repeat.", "Stepping away from {app}. Recovery fuels the next sprint."]
+    }
+  }
+}

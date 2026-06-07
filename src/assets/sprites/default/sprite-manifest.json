@@ -1,0 +1,30 @@
+{
+  "idle": {
+    "src": "/sprites/default/idle.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "frameCount": 4,
+    "durationMs": 800
+  },
+  "walk": {
+    "src": "/sprites/default/walk.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "frameCount": 6,
+    "durationMs": 600
+  },
+  "sleep": {
+    "src": "/sprites/default/sleep.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "frameCount": 2,
+    "durationMs": 1200
+  },
+  "talk": {
+    "src": "/sprites/default/talk.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "frameCount": 4,
+    "durationMs": 680
+  }
+}

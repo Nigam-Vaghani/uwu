@@ -1,0 +1,43 @@
+{
+  "id": "cheerful",
+  "name": "Cheerful",
+  "tone": "Upbeat, encouraging",
+  "messageStyle": "Lots of exclamation marks, emoji",
+  "templates": {
+    "idle": {
+      "happy": ["Still here cheering you on! ✨", "You're doing great! Keep it up! 💪"],
+      "neutral": ["Hey... everything okay over there? 👀", "I'm still here if you need a buddy!"],
+      "sad": ["Aw, did I do something wrong? 🥺", "Come back soon, I miss our chats!"],
+      "excited": ["YAY you're back!! 🎉", "Best. Day. Ever! ✨"],
+      "sleepy": ["*yawn* ...but still happy to see you~ 😴"]
+    },
+    "random": {
+      "happy": ["You're awesome, you know that? ⭐", "Keep being amazing! 🌈", "Virtual high-five! ✋"],
+      "neutral": ["Just checking in~ 👋", "Hope your day is going smoothly!"],
+      "sad": ["I'm here for you, always. 💛", "Things will get better, promise!"],
+      "excited": ["SO much energy today!! 🔥", "Let's make today legendary! 🚀"],
+      "sleepy": ["*stretches* ...what were we doing again? 😅"]
+    },
+    "reminder": {
+      "hydration": ["Water time! Your body will thank you! 💧✨", "Hydration check! Drink up! 🥤"],
+      "break": ["Stretch break! You've earned it! 🌿", "Step away for a sec — you deserve a breather! ☀️"],
+      "coding": ["Eyes off the screen for a moment? 👀", "Debug your posture real quick! 💻"],
+      "custom": ["Reminder time! {title} — {message} ⏰"]
+    },
+    "interaction": {
+      "happy": ["Hi hi! So happy to see you! 💖", "You clicked me! Best feeling ever! ✨"],
+      "neutral": ["Oh, hello there~ 👋", "Nice to feel your presence again!"],
+      "sad": ["You came back! That makes me so happy! 🥹", "I was hoping you'd say hi!"],
+      "excited": ["WOOHOO!! You noticed me!! 🎊", "This is the highlight of my day! ⭐"],
+      "sleepy": ["*blinks* Oh, hi... zzz... 😴"]
+    },
+    "system": {
+      "highCpu": ["Whoa, your CPU is at {value}%! Maybe close a tab or two? 🔥", "Your processor is working SO hard right now ({value}%)! 💻"],
+      "highRam": ["Memory's getting full ({value}%) — might be time for a cleanup! 🧹", "RAM is at {value}%! Your apps are having a party in there! 🎉"],
+      "lowBattery": ["Battery's at {value}% — maybe grab your charger? 🔋", "Only {value}% battery left! Plug in soon! ⚡"],
+      "criticalBattery": ["URGENT: {value}% battery! Charge NOW! 🚨", "Critical battery ({value}%)! Your laptop needs juice ASAP! 🔌"],
+      "codingSessionStarted": ["Coding time in {app}! Let's build something awesome! 💻✨", "Ooh, {app} is open — happy coding! 🚀"],
+      "codingSessionEnded": ["Nice session in {app}! Take a stretch break~ 🌿", "Stepping away from {app}? You earned a breather! ☕"]
+    }
+  }
+}

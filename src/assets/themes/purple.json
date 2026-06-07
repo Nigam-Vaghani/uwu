@@ -1,0 +1,21 @@
+{
+  "id": "purple",
+  "name": "Purple",
+  "variables": {
+    "--color-bg": "#FFDBBB",
+    "--color-surface": "#CCBEB1",
+    "--color-surface-alt": "#FFF5EB",
+    "--color-border": "#997E67",
+    "--color-text": "#664930",
+    "--color-text-muted": "#997E67",
+    "--color-accent": "#6B5A72",
+    "--color-accent-text": "#FFDBBB",
+    "--color-success": "#6B8F5E",
+    "--color-warning": "#C4844A",
+    "--color-error": "#B85C5C",
+    "--color-shadow": "rgba(102, 73, 48, 0.12)",
+    "--color-shadow-strong": "rgba(102, 73, 48, 0.22)",
+    "--color-hover": "#E8D0F0",
+    "--color-hover-strong": "#DCC0E8"
+  }
+}

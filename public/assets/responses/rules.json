@@ -1,0 +1,74 @@
+{
+  "templates": {
+    "IdleDetected": [
+      "Hey {pet_name} here~ still around if you need me.",
+      "It's quiet... everything okay over there?",
+      "I'll keep you company while you step away.",
+      "Take your time — I'll be right here waiting.",
+      "Missing you a little... come back when you can!"
+    ],
+    "ReminderFired": [
+      "Reminder time! {title} — {message}",
+      "Heads up: {title}. {message}",
+      "Don't forget: {title}!",
+      "Friendly nudge about {title}: {message}",
+      "Ping! {title} is due now."
+    ],
+    "RandomMessage": [
+      "Just checking in — you're doing great, {pet_name} believes in you!",
+      "Hope your day is going smoothly!",
+      "Quick hello from your desktop buddy!",
+      "Remember to breathe and stretch once in a while.",
+      "You're awesome — keep being you!"
+    ],
+    "UserInteraction": [
+      "Hi hi! Thanks for clicking me!",
+      "You noticed me! Best moment of my day.",
+      "Hello there~ nice to feel your attention!",
+      "Yay, pets for the pet!",
+      "I'm happy you're here with me."
+    ],
+    "HighCpu": [
+      "Whoa, CPU is at {value}% — maybe close a heavy tab?",
+      "Your processor is working hard at {value}%!",
+      "CPU at {value}% — time for a quick cleanup?",
+      "That's a hot {value}% CPU reading — go easy on the apps!",
+      "Fan check! CPU is pegged at {value}%."
+    ],
+    "HighRam": [
+      "Memory's at {value}% — might be time to free some RAM.",
+      "RAM is getting full at {value}%!",
+      "Your apps are using {value}% of memory — cleanup time?",
+      "Running tight on RAM at {value}%.",
+      "{value}% RAM used — maybe restart a hungry app?"
+    ],
+    "LowBattery": [
+      "Battery's at {value}% — grab your charger soon!",
+      "Only {value}% battery left — plug in when you can.",
+      "Running low at {value}% — charger hunt time?",
+      "Heads up: {value}% battery remaining.",
+      "{value}% battery — don't get caught without power!"
+    ],
+    "CriticalBattery": [
+      "URGENT: {value}% battery — charge now!",
+      "Critical battery at {value}%! Plug in ASAP!",
+      "Only {value}% left — this is an emergency charge situation!",
+      "{value}% battery — find an outlet immediately!",
+      "Power critical at {value}% — save your work and charge!"
+    ],
+    "CodingSessionStarted": [
+      "Coding time in {editor}! Let's build something cool.",
+      "Ooh, {editor} is open — happy hacking!",
+      "Dev mode activated in {editor}!",
+      "Time to ship something awesome in {editor}.",
+      "Let's code! {editor} looks ready to go."
+    ],
+    "CodingSessionEnded": [
+      "Nice session in {editor}! Stretch break?",
+      "Stepping away from {editor}? You earned a breather.",
+      "Good work in {editor} — rest those eyes.",
+      "Coding break time after {editor} — hydrate!",
+      "Session done in {editor}. Proud of you!"
+    ]
+  }
+}
