@@ -178,7 +178,18 @@ pub fn with_db<T, F>(app: &AppHandle, f: F) -> Result<T, String>
 where
     F: FnOnce(&Connection) -> Result<T, String>,
 {
-    let state = app.state::<DbState>();
+    let mut retries = 100;
+    let state = loop {
+        if let Some(state) = app.try_state::<DbState>() {
+            break state;
+        }
+        if retries == 0 {
+            return Err("Database state not ready after waiting".to_string());
+        }
+        retries -= 1;
+        std::thread::sleep(std::time::Duration::from_millis(50));
+    };
+
     let connection = state
         .0
         .lock()

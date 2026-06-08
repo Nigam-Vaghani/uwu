@@ -27,6 +27,7 @@ export function VoiceSettings() {
     saving,
     error,
   } = useTtsConfig();
+
   const { speak, stop } = useTTS();
   const [voices, setVoices] = useState<VoiceInfo[]>([]);
   const [loadingVoices, setLoadingVoices] = useState(false);
@@ -96,7 +97,7 @@ export function VoiceSettings() {
 
   return (
     <div className="settings-section">
-      <h2>Voice Settings</h2>
+      <h2>TTS Voice Settings</h2>
 
       <label className="settings-field">
         <span>TTS Provider</span>

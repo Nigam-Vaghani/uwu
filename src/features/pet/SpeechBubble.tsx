@@ -32,6 +32,9 @@ export function SpeechBubble({ message, onDismiss }: SpeechBubbleProps) {
       return () => window.clearTimeout(timeout);
     }
 
+    const audio = new Audio("/sounds/uwu-voice.mp3");
+    void audio.play().catch((e) => console.error("UwU voice play failed:", e));
+
     setDisplayMessage(message);
     const showFrame = window.requestAnimationFrame(() => setVisible(true));
     const dismissTimer = window.setTimeout(() => {

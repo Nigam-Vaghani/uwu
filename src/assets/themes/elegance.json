@@ -1,21 +1,21 @@
 {
   "id": "elegance",
-  "name": "Neutral Elegance",
+  "name": "Pink Elegance",
   "variables": {
-    "--color-bg": "#FFDBBB",
-    "--color-surface": "#CCBEB1",
-    "--color-surface-alt": "#FFF5EB",
-    "--color-border": "#997E67",
-    "--color-text": "#664930",
-    "--color-text-muted": "#997E67",
-    "--color-accent": "#664930",
-    "--color-accent-text": "#FFDBBB",
-    "--color-success": "#6B8F5E",
-    "--color-warning": "#C4844A",
-    "--color-error": "#B85C5C",
-    "--color-shadow": "rgba(102, 73, 48, 0.12)",
-    "--color-shadow-strong": "rgba(102, 73, 48, 0.22)",
-    "--color-hover": "#F5C99A",
-    "--color-hover-strong": "#E8B887"
+    "--color-bg": "#FFF0F5",
+    "--color-surface": "#FFE4E1",
+    "--color-surface-alt": "#FFFFFF",
+    "--color-border": "#FCA3B7",
+    "--color-text": "#4A1525",
+    "--color-text-muted": "#8A4F5F",
+    "--color-accent": "#E64980",
+    "--color-accent-text": "#FFFFFF",
+    "--color-success": "#5BA373",
+    "--color-warning": "#E07A3E",
+    "--color-error": "#C9405C",
+    "--color-shadow": "rgba(74, 21, 37, 0.12)",
+    "--color-shadow-strong": "rgba(74, 21, 37, 0.22)",
+    "--color-hover": "#FFC2D1",
+    "--color-hover-strong": "#FF99B3"
   }
 }

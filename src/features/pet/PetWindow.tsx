@@ -17,7 +17,8 @@ import { invokeCommand, useTauriStore } from "../../hooks/useTauriStore";
 
 const CONTEXT_MENU_WIDTH = 112;
 
-export function PetWindow() {  const { animation } = usePetAnimation();
+export function PetWindow() {  
+  const { animation } = usePetAnimation();
   const { mood, recordInteraction } = useMood();
   useEventListener();
   useQuoteListener();
@@ -104,6 +105,13 @@ export function PetWindow() {  const { animation } = usePetAnimation();
     setConfig,
     setHydrated,
   ]);
+
+  useEffect(() => {
+    if (isReady) {
+      const audio = new Audio("/sounds/hello-voice.mp3");
+      void audio.play().catch(e => console.error("Hello voice play failed:", e));
+    }
+  }, [isReady]);
 
   useEffect(() => {
     const petWindow = getCurrentWindow();

@@ -1,13 +1,13 @@
 import { THEME_IDS } from "./customization.types";
 
 const THEME_SWATCHES: Record<string, string> = {
-  elegance: "#664930",
-  "elegance-dark": "#997E67",
-  blue: "#CCBEB1",
-  green: "#5A7248",
-  pink: "#8F5A5A",
-  purple: "#6B5A72",
-  orange: "#8F5A30",
+  elegance: "#E64980",
+  "elegance-dark": "#FFC2D1",
+  blue: "#5A82A8",
+  green: "#5BA373",
+  pink: "#FF3377",
+  purple: "#9B59B6",
+  orange: "#E07A3E",
 };
 
 type ThemeSelectorProps = {
@@ -24,7 +24,7 @@ export function ThemeSelector({ activeThemeId, disabled, onSelect }: ThemeSelect
           key={themeId}
           type="button"
           className={`customization-theme-swatch${activeThemeId === themeId ? " customization-theme-swatch--selected" : ""}`}
-          style={{ background: THEME_SWATCHES[themeId] ?? "#664930" }}
+          style={{ background: THEME_SWATCHES[themeId] ?? "#E64980" }}
           disabled={disabled}
           aria-label={`${themeId} theme`}
           data-element-id={`theme-${themeId}`}
