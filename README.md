@@ -6,7 +6,7 @@ UWU is an interactive, AI-powered desktop companion designed to boost your produ
 
 **Inspiration**
 <div align="center">
-  <img src="./assets/inspiration.jpg" alt="Inspiration" width="300" />
+  <img src="./assets/uwu.png" alt="Inspiration" width="300" />
 </div>
 
 ## 🛠️ Tools & Technologies
