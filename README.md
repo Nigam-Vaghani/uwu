@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 align="cent</h1>
+  <h1 align="center">🎀 UWU 🌸</h1>
   <p align="center">
     <strong>Your Aesthetic, AI-Powered Desktop Pet & Productivity Assistant</strong>
   </p>
