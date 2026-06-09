@@ -14,9 +14,9 @@
 
 Wrapped in a beautifully designed **pink & white aesthetic**, the companion feels deeply personal and seamlessly blends into a cute, cozy desktop setup.
 
-<div align="center">
+<!-- <div align="center">
   <img src="./assets/inspiration.jpg" alt="Inspiration" width="300" style="border-radius: 12px; border: 2px solid #FF69B4;" />
-</div>
+</div> -->
 
 ## ✨ Features
 
