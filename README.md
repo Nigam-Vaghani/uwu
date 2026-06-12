@@ -9,14 +9,17 @@
     <img src="https://img.shields.io/badge/TypeScript-FFB6C1?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
     <img src="https://img.shields.io/badge/Tauri-FF69B4?style=for-the-badge&logo=tauri&logoColor=white" alt="Tauri" />
     <img src="https://img.shields.io/badge/Rust-FFB6C1?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-    <img src="https://img.shields.io/badge/Status-Completed-FF69B4?style=for-th
+    <img src="https://img.shields.io/badge/Status-Completed-FF69B4?style=for-the-badge" alt="Status" />
+  </p>
+
+  <img src="./assets/inspiration.jpg" alt="Inspiration" width="300" style="border-radius: 12px; border: 2px solid #FF69B4;" />
+</div>
+
+<br />
+
 **UWU Companion** is an interactive, AI-powered desktop companion designed to boost your productivity, keep you motivated, and bring a bit of joy to your daily workflow. Living right on your desktop as a transparent, always-on-top pet, UWU monitors your system, reminds you to take breaks, gamifies your tasks, and talks to you using text-to-speech and advanced AI models. 
 
 Wrapped in a beautifully designed **pink & white aesthetic**, the companion feels deeply personal and seamlessly blends into a cute, cozy desktop setup.
-
-<!-- <div align="center">
-  <img src="./assets/inspiration.jpg" alt="Inspiration" width="300" style="border-radius: 12px; border: 2px solid #FF69B4;" />
-</div> -->
 
 ## ✨ Features
 
